@@ -1,0 +1,147 @@
+body {
+  margin: 0;
+}
+
+html {
+  height: 100%;
+}
+.header {
+  padding: 10px;
+  background-image: url("https://images.unsplash.com/photo-1534082753658-1dcb40af5719?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  overflow: hidden;
+  top: 0px;
+}
+
+.header--title {
+  margin: 0;
+  text-align: center;
+  font-size: 60px;
+  font-family: "Caveat";
+  color: white;
+}
+
+.footer {
+  padding: 8px;
+  background-color: rgb(199, 205, 0);
+  color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer--details {
+  margin: 0px;
+  text-align: center;
+  font-family: "Caveat";
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 50px;
+  margin-top: 70px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form--input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 50px;
+  margin-bottom: 15px;
+  font-family: "Caveat";
+  font-size: 15px;
+}
+
+.input--label {
+  font-family: "Caveat";
+  margin-bottom: 5px;
+  font-size: 25px;
+}
+
+.form--button {
+  width: 50%;
+  font-weight: bold;
+  background-color: #cfdad6;
+  padding: 5px;
+
+  border-radius: 50px;
+  cursor: pointer;
+  font-family: "Caveat";
+  font-size: 20px;
+}
+
+.column--title {
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
+  margin: 0px 0px 10px 0px;
+  font-family: "Caveat";
+  font-size: 25px;
+}
+
+.modify--card {
+  display: flex;
+  align-items: center;
+  padding: 5px 0px 10px 0px;
+}
+
+.item--card {
+  display: flex;
+  flex-direction: column;
+  font-family: "Caveat";
+
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 50px;
+  font-size: 20px;
+  align-items: center;
+}
+
+.titles--card {
+  margin: 0px 5px 5px 0px;
+}
+
+.mark--button {
+  border: none;
+  background-color: inherit;
+  cursor: pointer;
+  border-top: 2px solid white;
+  padding: 10px 20px;
+  font-size: 10px;
+  width: 100%;
+}
+
+.div--columns {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.columns {
+  width: 40%;
+}
+
+.completed {
+  background-color: rgb(204, 255, 204);
+}
+
+.uncompleted {
+  background-color: rgb(255, 230, 230);
+}
+
+.error--message {
+  font-family: "Caveat";
+  color: red;
+}
